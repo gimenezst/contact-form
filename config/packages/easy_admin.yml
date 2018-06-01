@@ -1,0 +1,23 @@
+framework:
+    translator: { fallbacks: [ "fr" ] }
+easy_admin:
+    site_name: 'Back-office'
+    entities:
+        Contact:
+            class: App\Entity\Contact
+            label: 'Demandes'
+            edit:
+                title: 'Détails'
+            list:
+                title: 'Messages reçus'
+                fields:
+                    - { property: 'id'}
+                    - { property: 'name', label: 'Nom'}
+                    - { property: 'firstname', label: 'Prénom'}
+                    - { property: 'email', label: 'Email', type: 'email'}
+                    - { property: 'message', label: 'Message'}
+                    - { property: 'checked', label: 'Traité'}
+    design:
+        menu:
+            - { label: 'Accueil', route: 'welcome' }
+            - Contact

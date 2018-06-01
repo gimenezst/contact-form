@@ -1,0 +1,7 @@
+welcome_title: 'Exercice technique ACSEO'
+home: Accueil
+contact: 'Formulaire de contact'
+admin: Back-office
+home_title: __home_title
+welcome_text: 'Fonctionnement du site:<br/> - Le formulaire enregistre les demandes en BDD<br/> - Le back-office permet d''avoir une visualisation des demandes et de valider celles qui ont été traitées<br/> - L''accès au back-office est sécurisé (user=admin password=adminPass)<br/><br/> Techno utilisées:<br/> - Symfony 4<br/> - SQLite<br/> - Bootstrap 4<br/> - EasyAdmin'
+close: Fermer

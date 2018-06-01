@@ -1,0 +1,11 @@
+/build/
+/node_modules/
+/nbproject
+/public/build/fonts/glyphicons-*
+/public/build/images/glyphicons-*
+.env
+/public/bundles/
+/var/
+/vendor/
+
+
